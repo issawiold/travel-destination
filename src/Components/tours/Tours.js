@@ -10,7 +10,7 @@ function Tour(props) {
                         {props.name}
                     </h5>
                     <img style={{width:"250 ",height:"250 ",borderRadius:"50%"}} src={props.image} alt={props.name} />
-                    <p style={{display:"flex",justifyContent:"center",fontFamily:"Cursive",fontSize:"12px",color:"#EFE1D1"}}>
+                    <p style={{display:"flex",justifyContent:"center", fontFamily:"Cursive",fontSize:"12px",color:"#EFE1D1"}}>
                        only for {props.price} $ Total steal as in we are liturally stealing you're money
                     </p>
                     </fieldset>
