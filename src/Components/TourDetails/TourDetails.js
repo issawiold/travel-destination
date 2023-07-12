@@ -12,11 +12,11 @@ function TourDetails( ) {
       if(!clicked){
         return(
           <>
-      <p> infos</p>
+      <p> {setInfo(infoPartial)}</p>
         <a onClick={clicked=!clicked}>show more</a></>)
     } return(<>
         <p>
-        setInfo(info)
+        {setInfo(info)}
         </p>
         <a onClick={clicked=!clicked}>show less</a>
 </>)}

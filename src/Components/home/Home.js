@@ -6,7 +6,6 @@ import Footer from "../footer/Footer";
 import Tours from "../tours/Tours";
 import Tour from "../tours/tour/Tour";
 import { useState } from "react";
-import { useParams } from "react-router-dom";
 function Home() {
   const [id,setId]=useState("123")
     return (
