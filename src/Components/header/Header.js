@@ -1,4 +1,6 @@
 import "./Header.css"
+import { Link } from "react-router-dom";
+
 function Header(){
     return(
         <h1>
@@ -12,6 +14,9 @@ function Header(){
                 <a>
                     Mounts
                 </a>
+                <Link>
+                Home
+                </Link>
                 
             </nav>
         </h1>
