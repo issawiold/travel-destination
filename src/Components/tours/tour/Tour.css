@@ -1,0 +1,29 @@
+.div{
+    display: flex;
+    justify-content: center;
+}
+.img{
+    border-radius: 50%;
+    height: 500px;
+    width: 500px;
+}
+.fieldset{
+    display: flex;
+    background-color:#EFE1D1;
+}
+.p{
+    margin-top: 20%;
+    font-family:cursive;
+    font-size:20px;
+    color:#331D2C
+}
+button{
+    margin-top: 20% 
+}
+h4{
+    justify-content:center;
+    font-family:cursive;
+    font-size:25px;
+    color:#331D2C
+}
+

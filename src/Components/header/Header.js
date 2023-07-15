@@ -14,7 +14,7 @@ function Header(){
                 <a>
                     Mounts
                 </a>
-                <Link>
+                <Link to={"/"}>
                 Home
                 </Link>
                 
