@@ -8,23 +8,28 @@ import Tour from "../tours/tour/Tour";
 import { useState } from "react";
 function Home() {
   const [id,setId]=useState("123")
+  const  getValue=(value)=>{
+    return setId(value)
+  }
     return (
-      <div className="App">
+      <section>
         <header className="App-header">
        <Header/>
         </header>
+        <main> 
         <Routes>
         <Route>
-        <main> 
-        <Route path="/" element={< Tours callback={setId}/> } />
+        
+        <Route path="/" element={< Tours callback={getValue}/> } />
         <Route path="/city/:id" element={< Tour id={id}/> } />
 
-        </main>
+        
         </Route></Routes>
+        </main>
         <footer>
             <Footer/>
         </footer>
-      </div>
+      </section>
     );
   }
   export default Home
